@@ -1,0 +1,66 @@
+
+.user-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+
+    background-color: #555454;
+
+    padding: 8px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user-log h2 {
+    color: #fff;
+    font-size: 1em;
+}
+
+
+.user-log button {
+    width: 50px;
+    padding: 2px 2px;
+    
+    font-size: 1em;
+
+    margin-left: 8px;
+
+    color: #fff;
+    background-color: #272727;
+    cursor: pointer;
+}
+
+.user-log button:hover {
+    background-color: #bd4e4e;
+}
+
+/* LISTA DE OPÇÃO */
+.menu-section {
+    display: flex;
+    justify-content: center;
+
+    width: 250px;
+    height: 100vh;
+
+    background-color: #272727;
+
+}
+
+.menu-section li {
+    font-size: 1.2em;
+    font-weight: bold;
+
+    margin: 20px 0px;
+
+    color: #fff;
+
+    cursor: pointer;
+}
+
+.menu-section li:hover {
+    color: #555454;
+    transform: rotateX(12);
+
+}

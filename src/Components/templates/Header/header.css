@@ -1,0 +1,40 @@
+:root {
+    --primary-color-header: rgb(59, 59, 59);;
+    --secondary-color: #493a8f;
+    --text-color: #fff;
+}
+
+header#main-header {
+    height: 64px;
+    background: var(--primary-color-header);
+}
+
+header#main-header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 930px;
+    height: 64px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.header-content a {
+    color: var(--text-color);
+    font-size: 1.3em;
+}
+
+.links-cadastrar a {
+    color: var(--text-color);
+    font-size: 1em;
+    display: flex;
+    align-content: inherit;
+}
+
+.links-cadastrar a:hover {
+    color: var(--primary-color);
+}
+
+

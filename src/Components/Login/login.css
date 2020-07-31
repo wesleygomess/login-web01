@@ -1,0 +1,104 @@
+:root{
+    --primary-color: #654fc7;
+    --secondary-color: #493a8f;
+    --text-color: #fff;
+}
+
+form#login {
+    width: 100%;
+    max-width: 450px;
+
+    margin: 64px auto;
+    padding: 16px 32px;
+    
+    border-radius: 5px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: rgb(59, 59, 59);
+
+    display: flex;
+    flex-direction: column;
+}
+
+form#login h2 {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 32px;
+    font-size: 2em;
+}
+
+form#login div label {
+    color: var(--text-color);
+}
+
+form#login div input {
+    margin-bottom: 8px;
+    font-size: 1em;
+}
+
+form#login input, button {
+    /* reset appearance */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    /* box */
+    width: 100%;
+
+    padding: 10px 5px;
+    
+    border: none;
+    border-radius: 3px;
+
+    /* text */
+    font-size: 1.05em;
+
+}
+
+form#login button {  
+    font-size: 1.3em;
+    font-weight: bold;
+    
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+    cursor: pointer;
+}
+
+form#login button:hover{
+    background-color: var(--secondary-color);
+    transition-duration: 0.2s;
+}
+
+form#login hr {
+   width: 75%;
+   margin-bottom: 20px;
+}
+
+form#login div#hr-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form#login p {
+    color: #C0C0C0;
+    font-weight: lighter;
+}
+
+form#login a {
+    margin-left: 5px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+form#login a:hover{
+    color: var(--secondary-color);
+    transition-duration: 0.2s;
+}
+
+
+

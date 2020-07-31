@@ -1,0 +1,102 @@
+:root{
+    --primary-color: #654fc7;
+    --secondary-color: #493a8f;
+    --text-color: #fff;
+}
+
+form#singUp {
+    width: 100%;
+    max-width: 450px;
+
+    margin: 64px auto;
+    padding: 16px 32px;
+    
+    border-radius: 5px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: rgb(59, 59, 59);
+
+    display: flex;
+    flex-direction: column;
+}
+
+form#singUp h2 {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 32px;
+    font-size: 2em;
+}
+
+form#singUp div label{
+    color: var(--text-color);
+}
+
+form#singUp div input {
+    margin-bottom: 8px;
+    font-size: 1em;
+}
+
+form#singUp input, button {
+    /* reset appearance */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    /* box */
+    width: 100%;
+
+    padding: 10px 5px;
+    
+    border: none;
+    border-radius: 3px;
+
+    /* text */
+    font-size: 1.05em;
+
+} 
+
+form#singUp button{
+    font-size: 1.3em;
+    font-weight: bold;
+    
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+    cursor: pointer;
+}
+
+form#singUp button:hover{
+    background-color: var(--secondary-color);
+    transition-duration: 0.2s; 
+}
+
+form#singUp #hr-singup {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form#singUp hr {
+    width: 75%;
+    margin-bottom: 20px;
+ }
+
+form#singUp a {
+    font-size: 1.2em;
+    
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    
+}
+
+form#singUp a:hover {
+    color: var(--secondary-color);
+    font-weight: bold; 
+}
+
+
+
